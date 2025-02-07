@@ -1,0 +1,43 @@
+.aside{
+    position: fixed;
+    width: 100px;
+    top: 0;
+    left: 0;
+    background-color: var(--background-color);
+    border-right: 1px solid rgba(0, 0, 0, 0.5);
+    border: transparent;
+    padding: 2.5rem;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.1);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 10;
+}
+
+.nav__list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1rem;
+}
+.nav__link{
+    line-height:2rem;
+    color: var(--font-color);
+    font-weight: var(--font-bold); 
+}
+.nav__link:hover{
+    position: relative;
+    font-size: 4rem;
+    transition: all 0.3s;
+    color: var(--first-color);
+    font-weight: var(--font-bold);
+}
+
+
+.copyRight{
+    color: hsl(0, 0%, 100%);
+    font-size: var(--small-font-size);
+    transform: rotate(-90deg);
+    writing-mode: vertical-rl;
+}
