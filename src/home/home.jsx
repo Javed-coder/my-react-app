@@ -2,7 +2,6 @@ import React from "react";
 import "./home.css";
 import Me from "../assets/images/myPic.jpg";
 import HeaderSocials from "./HeaderSocials";
-import ScrollDown from "./ScrollDown";
 const Home = () => {
     return (
         <section className="home container" id="home">
@@ -20,8 +19,6 @@ const Home = () => {
                 <a href="#contact" className="btn">
                     Hire Me
                 </a>
-
-            <ScrollDown />
 
         </div>
         </section>

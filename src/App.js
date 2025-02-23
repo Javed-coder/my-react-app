@@ -8,8 +8,8 @@ import Portfolio from "./portfolio/portfolio";
 import Services from "../src/Services/services"; 
 import Testimonials from "./testimonials/testimonials"; 
 import Pricing from "./pricing/pricing";
-import Contact from "./contact/contact";
 import Blog from "./blog/blog";
+import Footer from "../src/Footer/footer";
  
 const App = () => {
   return (
@@ -24,8 +24,8 @@ const App = () => {
           <Pricing />
           <Blog />
           <Testimonials />
-          <Contact />
       </main>
+        <Footer />
     </div>
   
   );

@@ -7,19 +7,19 @@ const HeaderSocials = () => {
                 <i className="icon-social-instagram"></i>
             </a>   
 
-            <a href="#" className="home__social-link">
+            <a href="https://x.com/?lang=en&mx=2" target="blank" className="home__social-link">
                 <i className="icon-social-twitter"></i>
             </a> 
             
-            <a href="#" className="home__social-link">
+            <a href="https://x.com/?lang=en&mx=2"className="home__social-link">
                 <i className="icon-social-facebook"></i>
             </a>   
             
-            <a href="#" className="home__social-link">
+            <a href="https://x.com/?lang=en&mx=2" className="home__social-link">
                 <i className="icon-social-github"></i>
             </a>  
             
-            <a href="#" className="home__social-link">
+            <a href="https://x.com/?lang=en&mx=2" className="home__social-link">
                 <i className="icon-social-dribbble"></i>
             </a>
           

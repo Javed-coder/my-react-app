@@ -13,8 +13,7 @@
 }
 .home__img{
     border: 1px solid transparent;
-    border-top-right-radius: 5%;
-    border-top-left-radius: 5%; 
+    border-top-right-radius: 20%; 
 }
 .home__name{
     font-size: var(--h1-font-size);

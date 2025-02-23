@@ -15,5 +15,5 @@ return (
     </div>
     
     );
-}
+};
 export default ScrollDown;

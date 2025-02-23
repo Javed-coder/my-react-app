@@ -21,22 +21,35 @@ const Slider = () => {
                 <div className="slide"> 
                     <h2>Project 1</h2>
                     <img src={Project1Logo} alt="" />
-                    <a className="slide_link" href="https://github.com/Javed-coder?tab=overview&from=2022-12-01&to=2022-12-31">
+                    <a className="slide_link" target="blank" href="https://github.com/Javed-coder?tab=overview&from=2022-12-01&to=2022-12-31">
+                        <i class="fa fa-github" aria-hidden="true" target="blank"></i>
+                    </a>
+                </div>
+                
+                <div className="slide">
+                    <h2>Project 1</h2>
+                    <img src={Project1Logo} alt="" />
+                    <a className="slide_link" target="blank" href="https://github.com/Javed-coder?tab=overview&from=2022-12-01&to=2022-12-31">
                         <i class="fa fa-github" aria-hidden="true" target="blank"></i>
                     </a>
                 </div>
 
-                <div className="slide"> 
-                    <h2>Project 2</h2>
-                </div>
-
-                <div className="slide"> 
-                    <h2>Project 3</h2>
-                </div>
-
                 <div className="slide">
-                    <h2>Project 4</h2>
+                    <h2>Project 1</h2>
+                    <img src={Project1Logo} alt="" />
+                    <a className="slide_link" target="blank" href="https://github.com/Javed-coder?tab=overview&from=2022-12-01&to=2022-12-31">
+                        <i class="fa fa-github" aria-hidden="true" target="blank"></i>
+                    </a>
                 </div>
+                
+                <div className="slide">
+                    <h2>Project 1</h2>
+                    <img src={Project1Logo} alt="" />
+                    <a className="slide_link" target="blank" href="https://github.com/Javed-coder?tab=overview&from=2022-12-01&to=2022-12-31">
+                        <i class="fa fa-github" aria-hidden="true" target="blank"></i>
+                    </a>
+                </div>
+                
 
             </SlickSlider>
         </div>

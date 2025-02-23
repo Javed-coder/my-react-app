@@ -1,16 +1,12 @@
-import React, { useState } from "react";
+import React from "react";
 import "./portfolio.css";
+import Educations from "./educations";
 
 const Portfolio = () => {
     return (
-    <div className="main">
-        <div className="myEducations">
-            <h1>My Educations</h1>
-        </div>
-    </div>
+        <section>
+            <Educations />
+        </section>
     );
 };
-
-
-
 export default Portfolio;

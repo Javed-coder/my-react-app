@@ -10,15 +10,17 @@
 
 :root {
     --first-color: hsl(353, 88%, 84%);
-    --title-color: hsl(0, 0%, 100%);
-    --text-color: hsl(0, 0%, 100%);
-    --body-color: hsl(168, 26%, 4%);
+    --title-color: hsl(0, 0%, 0%);
+    --text-color: hsl(0, 0%, 0%);
+    --footer-text-color: hsl(0, 0%, 100%);
+    --body-color: #f2fafc;
     --container-color: hsl(253, 100%, 65%);
     --background-color: hsl(0, 2%, 57%);
     --body-font-color: hsl(0, 0%, 0%);
+    --footer-bg-color: hsl(0, 0%, 13%);
 
-    /*============Font and typography============*/
-    /* .5rem = 8px | 1rem = 16px...*/
+  /*============Font and typography============*/
+  /* .5rem = 8px | 1rem = 16px...*/
   
   --body-font: 'Rubik', sans-serif;
   --h1-font-size: 2.25rem;
@@ -37,14 +39,9 @@
 
   --shadow: 0px 5px 20px 0px rgb(69 67 96 / 10%);
 
-  /*============Border Radius============*/
-
-  --border-radius: 20px;
-
-
 }
 
-/*============Responsive typography============*/
+  /*============Responsive typography============*/
 
 @media screen and (max-width: 1024px){
     :root{
@@ -58,7 +55,7 @@
   
 }
 
-/*============Base Css============*/
+  /*============Base Css============*/
 
 *{
     margin: 0;
@@ -107,11 +104,9 @@ img{
 /*============Container============*/
 
 .container{
-    max-width: 1200px;
-    margin-right: auto;
-    margin-left: auto;
-    padding-right: 50px;
-    padding-left: 50px;
+    max-width: 100%;
+    text-align: center;
+    padding: 50px;
 }
 
 .grid{
@@ -120,50 +115,30 @@ img{
 }
 
 .section{
-    padding: 4rem 0;
-    padding-bottom: 2rem;
+  padding: 4rem 0;
+  padding-bottom: 2rem;
 }
 
 .section__title{
   font-size: var(--h1-font-size);
-  margin-left: 0.875rem;
   font-weight:  var(--font-bold);
-  position: relative;
   margin-bottom: 3.75rem;
 }
 
-.section__title::before{
-  content: "";
-  background-color: url(./assets/dots-bg.svg);
-  height: 2.25rem;
-  width: 2.25rem;
-  position: absolute;
-  left: -0.875rem;
-  top: -0.875rem;
-}
-
 .btn{
-  padding: 0.75rem 2rem;
-  line-height: 1;
-  border-radius: 1.875rem;
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0%);
+  cursor: pointer;
+  padding: 1px;
+  border-radius: 5px;
+  box-shadow: var(--shadow);
   border: 1px solid transparent;
-  color: #fff;
-  background-color: var(--first-color);
+  color: #ffffff;
+  transition: all 0.3s ease;
   font-weight: var(--font-bold);
 }
-
-@keyframes button-push {
-  50%{
-    transform: button-push 0.3s linear 1;
-  }
-
-  100%{
-    transform: button-push 0.3s linear 1;
-  }
-}
-
 .btn:hover{
-  animation: button-push 0.3s linear 1;
+  background-color: var(--first-color);
+  color: var(--text-color);
 }
+
+
 

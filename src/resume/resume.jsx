@@ -10,10 +10,10 @@ const Resume = () => {
             <div className="resume container" id="resume">
                 <h1 className= "resume__text">
                     Projects       
-                </h1>    
+                </h1>
+                <h8>All of my Projects</h8>    
                              
             </div>
-            {/* Slider Below */} 
             <Slider />   
         </section>    
     );

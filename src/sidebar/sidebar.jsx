@@ -24,54 +24,54 @@ const Sidebar = () => {
               <a href="#about" className="nav__link">
                 <i className="icon-user-following"></i>
               </a>
-            </li>  
-            
+            </li>
+
             <li className="nav__item">
               <a href="#services" className="nav__link">
                 <i className="icon-briefcase"></i>
               </a>
-            </li>  
-            
-            <li className="nav__item">
-              <a href="#resume" className="nav__link">
-                <i className="icon-graduation"></i>
-              </a>
-            </li>  
-            
+            </li>
+
             <li className="nav__item">
               <a href="#portfolio" className="nav__link">
+                <i className="icon-graduation"></i>
+              </a>
+            </li>
+
+            <li className="nav__item">
+              <a href="#projects" className="nav__link">
                 <i className="icon-layers"></i>
               </a>
             </li>
-            
+
             <li className="nav__item">
               <a href="#blog" className="nav__link">
                 <i className="icon-note"></i>
               </a>
             </li>
-            
+
             <li className="nav__item">
-              <a href="#contact" className="nav__link">
+              <a href="#support" className="nav__link">
                 <i className="icon-bubble"></i>
               </a>
             </li>
-            
+
             <li className="nav__item">
               <a href="#testimonials" className="nav__link">
                 <i className="icon-settings"></i>
               </a>
             </li>
-            
+
             <li className="nav__item">
               <a href="#contact" className="nav__link">
                 <i className="icon-phone"></i>
               </a>
-            </li>  
-          
+            </li>
+
           </ul>
-        
-        </div> 
-      
+
+        </div>
+
       </nav>
 
       <div className="nav__footer">
@@ -81,7 +81,7 @@ const Sidebar = () => {
         </span>
 
       </div>
-    
+
     </aside>
   );
 }
