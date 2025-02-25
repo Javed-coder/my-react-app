@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0b8e5045866bc41831bdb3bd75304e76",
+    "revision": "64b99d89e6eaef85de454b716a8b67a5",
     "url": "/my-react-app/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/my-react-app/static/css/2.fd35e188.chunk.css"
   },
   {
-    "revision": "f016716c4a97992c63ae",
+    "revision": "39ba3529072bb6b3c9de",
     "url": "/my-react-app/static/css/main.25a1e9d4.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/my-react-app/static/js/3.bcd5507e.chunk.js"
   },
   {
-    "revision": "f016716c4a97992c63ae",
-    "url": "/my-react-app/static/js/main.a4803a9f.chunk.js"
+    "revision": "39ba3529072bb6b3c9de",
+    "url": "/my-react-app/static/js/main.0f7ecd4e.chunk.js"
   },
   {
     "revision": "101eb7e181356b0beb84",
@@ -32,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/my-react-app/static/media/logo.6d9061f7.svg"
   },
   {
-    "revision": "a1857e5bc0f973dc670ba59d36de205e",
-    "url": "/my-react-app/static/media/myPic.a1857e5b.jpg"
+    "revision": "7512b71270c94ad276ef5194124cbf59",
+    "url": "/my-react-app/static/media/myPic.7512b712.jpg"
   },
   {
     "revision": "876a8325687358ce46ec26be29118535",
