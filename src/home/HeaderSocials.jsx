@@ -3,7 +3,7 @@ import React from "react";
 const HeaderSocials = () => {    
     return (
         <div className="header__socials home__socials">
-            <a href="https://www.instagram.com/alimzai_07/" target="blank" className="home__social-link">
+            <a href="https://www.instagram.com/alimzai_07/" target="_blank" className="home__social-link">
                 <i className="icon-social-instagram"></i>
             </a>   
 
