@@ -1,0 +1,7 @@
+.resume__section{
+    background-color: var(--container-color);
+    box-shadow: var(--shadow);
+    border-radius: 5px;
+    border: 3px double black;
+    outline: none;
+}

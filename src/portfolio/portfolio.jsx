@@ -5,7 +5,10 @@ import Educations from "./educations";
 const Portfolio = () => {
     return (
         <section>
+            <div className="container" id="portfolio">
+            
             <Educations />
+            </div>
         </section>
     );
 };
