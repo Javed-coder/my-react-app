@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/my-react-app/static/css/main.25a1e9d4.chunk.css",
-    "main.js": "/my-react-app/static/js/main.e96a98f8.chunk.js",
-    "main.js.map": "/my-react-app/static/js/main.e96a98f8.chunk.js.map",
-    "runtime~main.js": "/my-react-app/static/js/runtime~main.fc77d51b.js",
-    "runtime~main.js.map": "/my-react-app/static/js/runtime~main.fc77d51b.js.map",
-    "static/css/2.fd35e188.chunk.css": "/my-react-app/static/css/2.fd35e188.chunk.css",
-    "static/js/2.bb80f20d.chunk.js": "/my-react-app/static/js/2.bb80f20d.chunk.js",
-    "static/js/2.bb80f20d.chunk.js.map": "/my-react-app/static/js/2.bb80f20d.chunk.js.map",
-    "static/js/3.bcd5507e.chunk.js": "/my-react-app/static/js/3.bcd5507e.chunk.js",
-    "static/js/3.bcd5507e.chunk.js.map": "/my-react-app/static/js/3.bcd5507e.chunk.js.map",
+    "main.css": "/my-react-app/static/css/main.79622b98.css",
+    "main.js": "/my-react-app/static/js/main.e94b0e5b.js",
+    "static/js/488.af104311.chunk.js": "/my-react-app/static/js/488.af104311.chunk.js",
+    "static/media/myPic.jpg": "/my-react-app/static/media/myPic.e8c65c203b04ff0e893f.jpg",
+    "static/media/project 2.webp": "/my-react-app/static/media/project 2.4c2c501ad6595bdcfa72.webp",
+    "static/media/slick.svg": "/my-react-app/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/my-react-app/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/my-react-app/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/my-react-app/static/media/slick.295183786cd8a1389865.woff",
+    "static/media/react-1.svg": "/my-react-app/static/media/react-1.903d77ad940b12efaddde2484397ad4a.svg",
+    "static/media/logo.svg": "/my-react-app/static/media/logo.b446c6f12da73e37a731e70ad6741e72.svg",
     "index.html": "/my-react-app/index.html",
-    "precache-manifest.4bd83d62c881f8f202d21aac8e37942c.js": "/my-react-app/precache-manifest.4bd83d62c881f8f202d21aac8e37942c.js",
-    "service-worker.js": "/my-react-app/service-worker.js",
-    "static/css/2.fd35e188.chunk.css.map": "/my-react-app/static/css/2.fd35e188.chunk.css.map",
-    "static/css/main.25a1e9d4.chunk.css.map": "/my-react-app/static/css/main.25a1e9d4.chunk.css.map",
-    "static/media/logo.svg": "/my-react-app/static/media/logo.6d9061f7.svg",
-    "static/media/myPic.jpg": "/my-react-app/static/media/myPic.7512b712.jpg",
-    "static/media/react-1.svg": "/my-react-app/static/media/react-1.876a8325.svg",
-    "static/media/slick-theme.css": "/my-react-app/static/media/slick.f97e3bbf.svg"
-  }
+    "main.79622b98.css.map": "/my-react-app/static/css/main.79622b98.css.map",
+    "main.e94b0e5b.js.map": "/my-react-app/static/js/main.e94b0e5b.js.map",
+    "488.af104311.chunk.js.map": "/my-react-app/static/js/488.af104311.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.79622b98.css",
+    "static/js/main.e94b0e5b.js"
+  ]
 }
