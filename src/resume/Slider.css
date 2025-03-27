@@ -37,3 +37,31 @@
     font-size: 4rem;
     color: var(--primary-color);
 }
+
+.slide img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    padding: 20px;
+    margin-top: 200px;
+}
+.github_button{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    font-size: 1.5rem;
+    margin-top: 20px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.github_button::after{
+    position: absolute;
+    content: "#";
+    color: var(--primary-color);
+    
+}

@@ -3,7 +3,7 @@
     width: 10px;
     top: 0;
     left: 0;
-    background-color: var(--background-color);
+    background-color: white;
     border-right: 1px solid rgba(0, 0, 0, 0.5);
     border: transparent;
     padding: 2.5rem;
@@ -26,11 +26,14 @@
     color: var(--font-color);
     font-weight: var(--font-bold); 
 }
+.nav__link i{
+    pointer-events: auto;
+}
 .nav__link:hover{
     position: relative;
     font-size: 4rem;
     transition: all 0.3s;
-    color: var(--first-color);
+    color: red;
     font-weight: var(--font-bold);
 }
 

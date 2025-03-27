@@ -3,6 +3,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import SlickSlider from "react-slick";
 import Project1Logo from "../assets/react-1.svg";
+import Project2Logo from "../assets/images/project 2.webp";
 import "./Slider.css";
 
 const Slider = () => {
@@ -22,13 +23,13 @@ const Slider = () => {
                     <h2>Project 1</h2>
                     <img src={Project1Logo} alt="" />
                     <a className="slide_link" target="blank" href="https://github.com/Javed-coder?tab=overview&from=2022-12-01&to=2022-12-31">
-                        <i class="fa fa-github" aria-hidden="true" target="blank"></i>
+                        <i class="fa fa-github git_button" aria-hidden="true" target="blank"></i>
                     </a>
                 </div>
                 
                 <div className="slide">
                     <h2>Project 2</h2>
-                    <img src={Project1Logo} alt="" />
+                    <img src={Project2Logo} alt="" />
                     <a className="slide_link" target="blank" href="https://github.com/Javed-coder?tab=overview&from=2022-12-01&to=2022-12-31">
                         <i class="fa fa-github" aria-hidden="true" target="blank"></i>
                     </a>
