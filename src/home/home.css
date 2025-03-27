@@ -25,6 +25,17 @@
     border-radius: 20px;
     margin-top: 20px;
 }
+
+@media (max-width: 768px) {
+    .intro {
+        background-attachment: scroll;
+        /* Prevent fixed background on mobile for better performance */
+        height: 50vh;
+        /* Adjust height for smaller screens */
+        border-radius: 10px;
+        /* Optional: Adjust border radius */
+    }
+}
 .intro::before{
     content: "";
     position: absolute;
